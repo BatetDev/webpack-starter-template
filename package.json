@@ -34,6 +34,7 @@
     "webpack-merge": "^6.0.1"
   },
   "dependencies": {
+    "lucide": "^0.510.0",
     "normalize.css": "^8.0.1"
   }
 }
