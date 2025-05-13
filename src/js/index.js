@@ -1,4 +1,4 @@
-import '../styles/main.css';
+import '../styles/output.css';
 import { createIcons, icons } from 'lucide';
 
 import { greet } from './modules/utils.js';
@@ -12,7 +12,8 @@ greetBabel('World');
 
 const iconSpan = document.getElementById('icon');
 if (iconSpan) {
-  iconSpan.innerHTML = '<i data-lucide="landmark" width="40" height="40"></i>';
+  iconSpan.innerHTML =
+    '<i data-lucide="landmark" width="40" height="40" class="inline"></i>';
   createIcons({ icons });
 } else {
   console.warn('No element with id="icon" found.');
